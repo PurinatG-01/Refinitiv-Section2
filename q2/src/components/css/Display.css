@@ -1,0 +1,19 @@
+*{
+    color: #232323;
+}
+
+.Container-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.Data-item{
+    width: 200px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 32px;
+    border: 1px solid #232323;
+}

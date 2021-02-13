@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    min-height: 100vh;
+}
+
+.wrapper-1{
+    min-width: 200px;
+    border: 1px solid black;
+}
+
+.wrapper-2{
+    flex-grow: 1;
+    min-width: 100px;
+    border: 1px solid black;
+}
+
+.wrapper-3{
+    min-width: 300px;
+    border: 1px solid black;
+}
