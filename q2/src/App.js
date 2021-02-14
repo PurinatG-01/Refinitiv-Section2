@@ -16,11 +16,12 @@ export default function App() {
 
   return (
     <div className="App">
-      <form onSubmit={(e) => {
+      <form className="form-keyword" onSubmit={(e) => {
         e.preventDefault()
         setDisplayData(queryData(keyword, data))
       }}>
-        <input type="text" onChange={(e) => {
+        <label className="label-keyword" name="keyword">Filter</label>
+        <input className="input-keyword" name="keyword" type="text" onChange={(e) => {
           setKeyword(e.target.value)
         }} />
         <Display data={displayData ?? []}/>
